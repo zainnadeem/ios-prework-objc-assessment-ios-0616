@@ -18,28 +18,29 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     // Declare a variable of type NSArray and assign it the return value from METHOD 1
-    NSArray * numbers = [self generateArrayOfNumbers];
+    NSArray *numbers = [self generateArrayOfNumbers];
     
     // Declare a variable of type NSArray and assign it the return value from METHOD 2
     NSArray *letters = [self generateArrayOfLetters];
     
-    // Declare a variable of type NSDictionary and assign it the return value of METHOD 3 (Pass your numbers array and letters array in as the two array arguments for METHOD 3)
+    // Declare a variable of type NSDictionary and assign it the return value of METHOD 3
     NSDictionary *dictionary = [self generateNumbersAndLettersDictionaryWithNumbers:numbers letters:letters];
     
-    // Use NSLog to print your dictionary to the debugger
+    // Use NSLog to print the contents of your dictionary to the console
     NSLog(@"dictionary : %@",dictionary);
     
     return YES;
 }
 
-
 /*
  
- METHOD 1
+ METHOD 1: generateArrayOfNumbers
  
  Write a method to generate and return an array with the numbers 1 to 26
  
  */
+
+// write method here
 
 -(NSArray *)generateArrayOfNumbers {
     
@@ -52,14 +53,15 @@
     
 }
 
-
 /*
  
- METHOD 2
+ METHOD 2: generateArrayOfLetters
  
  Write a method to generate and return an array with the letters a to z
  
  */
+
+// write method here
 
 -(NSArray *)generateArrayOfLetters {
     
@@ -75,10 +77,17 @@
 
 /*
  
- METHOD 3
+ METHOD 3: generateNumbersAndLettersDictionaryWithNumbers:letters:
  
- Write a method that returns a dictionary. The method should have two array parameters. Your numbers array should be passed in as the first argument and your letters array should be passed in as the second argument. Iterate over both arrays to create a dictionary where the key is the number and the value is the letter.
- */
+ Write a method that returns a dictionary. The method should have 
+ two array parameters. Your numbers array should be passed in as 
+ the first argument and your letters array should be passed in as 
+ the second argument. Iterate over both arrays to create a 
+ dictionary where the key is the number and the value is the letter.
+ 
+*/
+
+// write method here
 
 -(NSDictionary *)generateNumbersAndLettersDictionaryWithNumbers:(NSArray *)numbers letters:(NSArray *)letters {
     
