@@ -2,10 +2,16 @@
 A short assessment to test student's basic comprehension of the objective-c prework.
 
 ## Instructions
-Each of the following methods should be called from the indicated location in the provided Xcode project's AppDelegate file. 
+In your AppDelegate.m file, declare an object of type `NSArray` and assign it the return value of a method called `generateArrayOfNumbers`. Next, declare another `NSArray` and assign it the return value of a method called `generateArrayOfLetters`. Finally, declare an object of type `NSDictionary` and assign it the return value of a method named `generateNumbersAndLettersDictionaryWithNumbers:letters:`, which should take as arguments the two `NSArray`s you just created.
 
-### Write a method to add numbers 1 to 26 to an array
+### 1. `generateArrayOfNumbers`
+This method should return an array which contains 26 elements, the numbers 1 through 26. Do not hard-code these values into the array.
 
-### Write a method to add letters "a" to "z" to an array
+### 2. `generateArrayOfLetters`
+This method should return an array which contains the 26 letters of the English alphabet, lowercase and in order.
 
-### Write a method which combines the contents of your numbers array and letters array into a dictionary
+### 3. `generateNumbersAndLettersDictionaryWithNumbers:letters:`
+This method should return a dictionary that contains key-value pairs of numbers and their corresponding letters by using the two provided arguments.
+
+### 4. Log the contents of your dictionary
+Write an `NSLog` in the `application:didFinishLaunchingWithOptions:` method after you've called your three other methods to print the contents of your final dictionary to the console.

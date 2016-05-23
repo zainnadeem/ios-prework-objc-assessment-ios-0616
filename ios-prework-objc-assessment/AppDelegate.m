@@ -17,7 +17,6 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-    
     // Declare a variable of type NSArray and assign it the return value from METHOD 1
     NSArray * numbers = [self generateArrayOfNumbers];
     
@@ -25,14 +24,14 @@
     NSArray *letters = [self generateArrayOfLetters];
     
     // Declare a variable of type NSDictionary and assign it the return value of METHOD 3 (Pass your numbers array and letters array in as the two array arguments for METHOD 3)
-    NSDictionary *dictionary = [self generateNumbersAndLettersDictionary:numbers letters:letters];
+    NSDictionary *dictionary = [self generateNumbersAndLettersDictionaryWithNumbers:numbers letters:letters];
     
     // Use NSLog to print your dictionary to the debugger
     NSLog(@"dictionary : %@",dictionary);
     
-    
     return YES;
 }
+
 
 /*
  
@@ -41,7 +40,6 @@
  Write a method to generate and return an array with the numbers 1 to 26
  
  */
-
 
 -(NSArray *)generateArrayOfNumbers {
     
@@ -53,6 +51,7 @@
     return numbers;
     
 }
+
 
 /*
  
@@ -81,8 +80,7 @@
  Write a method that returns a dictionary. The method should have two array parameters. Your numbers array should be passed in as the first argument and your letters array should be passed in as the second argument. Iterate over both arrays to create a dictionary where the key is the number and the value is the letter.
  */
 
-
--(NSDictionary *)generateNumbersAndLettersDictionary:(NSArray *)numbers letters:(NSArray *)letters {
+-(NSDictionary *)generateNumbersAndLettersDictionaryWithNumbers:(NSArray *)numbers letters:(NSArray *)letters {
     
     NSMutableDictionary *dictionary = [NSMutableDictionary new];
     for (NSInteger i = 0; i < numbers.count; i++) {
