@@ -18,16 +18,16 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     // Declare a variable of type NSArray and assign it the return value from METHOD 1
-    NSArray *numbers = [self generateArrayOfNumbers];
+    
     
     // Declare a variable of type NSArray and assign it the return value from METHOD 2
-    NSArray *letters = [self generateArrayOfLetters];
+    
     
     // Declare a variable of type NSDictionary and assign it the return value of METHOD 3
-    NSDictionary *dictionary = [self generateNumbersAndLettersDictionaryWithNumbers:numbers letters:letters];
+    
     
     // Use NSLog to print the contents of your dictionary to the console
-    NSLog(@"dictionary : %@",dictionary);
+    
     
     return YES;
 }
@@ -42,16 +42,8 @@
 
 // write method here
 
--(NSArray *)generateArrayOfNumbers {
-    
-    NSMutableArray *numbers = [NSMutableArray new];
-    for (NSInteger i = 1; i <= 26; i++) {
-        [numbers addObject:[NSNumber numberWithInteger:i]];
-    }
-    
-    return numbers;
-    
-}
+
+
 
 /*
  
@@ -63,16 +55,7 @@
 
 // write method here
 
--(NSArray *)generateArrayOfLetters {
-    
-    NSMutableArray *letters = [NSMutableArray new];
-    for (char a = 'a'; a <= 'z'; a++)
-    {
-        [letters addObject:[NSString stringWithFormat:@"%c", a]];
-    }
-    
-    return letters;
-}
+
 
 
 /*
@@ -89,18 +72,7 @@
 
 // write method here
 
--(NSDictionary *)generateNumbersAndLettersDictionaryWithNumbers:(NSArray *)numbers letters:(NSArray *)letters {
-    
-    NSMutableDictionary *dictionary = [NSMutableDictionary new];
-    for (NSInteger i = 0; i < numbers.count; i++) {
-        
-        dictionary[numbers[i]] = letters[i];
-        
-    }
-    
-    return dictionary;
-    
-}
+
 
 
 @end
