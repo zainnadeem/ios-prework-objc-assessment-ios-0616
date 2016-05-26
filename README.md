@@ -27,7 +27,7 @@ This method should return an array which contains the 26 letters of the English 
 ### 5. Implement `generateNumbersAndLettersDictionaryWithNumbers:letters:`
 This method should return a dictionary that contains key-value pairs of numbers and their corresponding letters by using the two provided arguments.
 
-### 6. Log the contents of your dictionary
+### 6. Log the contents of `alphabetDictionary`
 Write an `NSLog` in the `application:didFinishLaunchingWithOptions:` method after you've called your three other methods to print the entire contents of your final dictionary to the console.
 
 ### 7. Reassign your arrays
