@@ -14,4 +14,7 @@ This method should return an array which contains the 26 letters of the English 
 This method should return a dictionary that contains key-value pairs of numbers and their corresponding letters by using the two provided arguments.
 
 ### 4. Log the contents of your dictionary
-Write an `NSLog` in the `application:didFinishLaunchingWithOptions:` method after you've called your three other methods to print the contents of your final dictionary to the console.
+Write an `NSLog` in the `application:didFinishLaunchingWithOptions:` method after you've called your three other methods to print the entire contents of your final dictionary to the console.
+
+### 5. Reassign your arrays
+Reassign the array of numbers you created above to contain the keys from your final dictionary. Reassign the array of letters you created above to contain the values from your final dictionary. Print both of these arrays to the console, separated by a new line, with a single `NSLog`.
