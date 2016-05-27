@@ -17,8 +17,8 @@ Next, declare the three following methods and set them to return `nil` until you
 * `generateArrayOfLetters`, which returns an `NSArray`
 * `generateNumbersAndLettersDictionaryWithNumbers:letters:`, which takes as arguments `numbersArray` and `lettersArray` and returns an `NSDictionary`
 
-### 2. Assign values to your variables
-Assign `numbersArray` to the return of `generateArrayOfNumbers` and `lettersArray` to the return of `generateArrayOfLetters`. Assign `alphabetDictionary` to the return of `generateNumbersAndLettersDictionaryWithNumbers:letters:`, which should take in as arguments the two arrays you previously declared.
+### 2. Reassign values to your variables
+On a new line, reassign `numbersArray` to the return of `generateArrayOfNumbers` and `lettersArray` to the return of `generateArrayOfLetters`. Next, reassign `alphabetDictionary` to the return of `generateNumbersAndLettersDictionaryWithNumbers:letters:`, which should take in as arguments the two arrays you previously declared.
 
 ### 3. Implement `generateArrayOfNumbers`
 This method should return an array which contains 26 elements, the whole numbers 1 through 26. Do not hard-code these values into the array.
@@ -26,7 +26,7 @@ This method should return an array which contains 26 elements, the whole numbers
 ### 4. Implement `generateArrayOfLetters`
 This method should return an array which contains the 26 letters of the English alphabet, lowercase and in ascending order.
 
-> An individual letter can be of type `char`, which can be incremented by adding an integer. For example, `'a' + 1` will result in `'b'`.
+> An individual letter can be of type `char`, which can be altered by adding an integer. For example, `'a' + 2` will result in `'c'`.
 
 Use the `stringWithFormat:` method to convert individual `char` values to strings.
 
