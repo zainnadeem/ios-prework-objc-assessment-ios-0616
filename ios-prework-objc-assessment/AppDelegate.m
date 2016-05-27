@@ -14,10 +14,13 @@
 
 @implementation AppDelegate
 
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    // Declare your variables here
     
     return YES;
 }
+
+// Declare your methods here
 
 @end
