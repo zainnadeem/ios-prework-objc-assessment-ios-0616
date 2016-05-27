@@ -37,4 +37,4 @@ This method should return a dictionary that contains key-value pairs of numbers 
 Write an `NSLog` in the `application:didFinishLaunchingWithOptions:` method after you've called your three other methods to print the entire contents of your final dictionary to the console.
 
 ### 7. Reassign your arrays
-Reassign `numbersArray` to the keys from `alphabetDictionary`. Make a mutable copy of `lettersArray` called `mutableLettersArray` and assign to it all the values retrieved by iterating over `alphabetDictionary`. With a single `NSLog`, print both `numbersArray` and `mutableLettersArray` to the console, separated by a new line.
+Reassign `numbersArray` to the keys from `alphabetDictionary`. Make a mutable copy of `lettersArray` called `mutableLettersArray`, remove all objects from this array, and assign to it all the values retrieved by iterating over `alphabetDictionary`. With a single `NSLog`, print both `numbersArray` and `mutableLettersArray` to the console, separated by a new line.
