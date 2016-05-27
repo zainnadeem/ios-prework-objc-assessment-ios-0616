@@ -31,7 +31,7 @@ This method should return an array which contains the 26 letters of the English 
 Use the `stringWithFormat:` method to convert individual `char` values to strings.
 
 ### 5. Implement `generateNumbersAndLettersDictionaryWithNumbers:letters:`
-This method should return a dictionary that contains key-value pairs of numbers and their corresponding letters by using the two provided arguments.
+This method should return a dictionary that contains key-value pairs of numbers as keys and their corresponding letters as values by using the two provided arguments.
 
 ### 6. Log the contents of `alphabetDictionary`
 Write an `NSLog` in the `application:didFinishLaunchingWithOptions:` method after you've called your three other methods to print the entire contents of your final dictionary to the console.
